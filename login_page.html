@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 shrink-to-fit=no, user-scalable=0" charset="utf-8">
+    <meta name="theme-color" content="#fff">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Souq Aljumla</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+          background: url('image/i6.jpg') repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+    </style>
+
+  </head>
+
+  <body style="height: 83vh;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-0 fixed-top">
+          <a class="navbar-brand" href="#"><i class="fas fa-angle-left fa-lg"></i></a>
+          <a class="text-center text-white"><b>GAS DELIVERY</b></a>
+          <button class="navbar-toggler px-0" type="button" style="visibility: hidden;"></button>
+        </nav>
+    </header>
+
+    <main class="mt-5">
+      <div class="container mt-2">
+        <div class="card mx-auto border-0 bg-transparent">
+          <div class="card-header border-bottom-0 bg-transparent">
+            <ul class="nav nav-tabs justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true"><b>Login</b></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" id="pills-register-tab" data-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false"><b>Register</b></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card-body">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+                <form>
+                  <div class="form-group">
+                    <input type="number" name="mob" class="form-control text-center" id="mob" placeholder="Mobile Number" required autofocus>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="password" name="password" class="form-control text-center" id="password" id="password" placeholder="Password" required>
+                  </div>
+
+                  <div class="text-center pt-4">
+                    <button type="submit" class="btn btn-md btn-primary">Login</button>
+                  </div>
+
+                  <!-- <div class="text-center pt-2">
+                    <a class="btn btn-link text-primary" href="#">Forgot Your Password?</a>
+                  </div> -->
+                </form>
+              </div>
+
+              <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
+                <form>
+                  <div class="form-group">
+                    <input type="text" name="username" id="name" class="form-control text-center" placeholder="Full Name" required autofocus>
+                  </div>
+                  <div class="form-group">
+                    <input type="number" name="mob" id="mob" class="form-control text-center" placeholder="Mobile Number" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control text-center" placeholder="Email Address" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" class="form-control text-center" id="password" id="password" placeholder="Create Password" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" class="form-control text-center" id="password" id="password" placeholder="Confirm Password" required>
+                  </div>
+
+                  <div class="text-center py-1">
+                    <button type="submit" class="btn btn-md btn-primary">Register</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+  <!-- SCRIPTS -->
+
+   <script type="text/javascript">
+    jQuery(document.body).on('click', function(ev){
+    if(jQuery(ev.target).closest('.navbar-collapse').length) return; // Not return false
+
+    jQuery('.navbar-collapse').collapse('hide');
+});
+  </script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+
+</html>

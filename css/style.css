@@ -1,0 +1,101 @@
+body{
+    font-size: 15px;
+}
+*{
+    font-weight: 400;
+}
+header{
+        -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card {
+    max-width: 450px;
+    height: 75vh;
+}
+.navbar {
+    background-color: #87577f;
+}
+
+.nav-item .nav-link[disabled]:hover {
+  
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #87577f !important;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.form-control:focus {
+    box-shadow: none; 
+}
+.home_btn{
+    background-color: #fff;
+    color: #87577f; 
+    height: 80px; 
+    font-size: 16px; 
+    border-radius: 10px 0px 10px 0px;
+}
+.purple_btn{
+    background-color: #87577f;
+    color: #fff;
+}
+
+
+/*For Request Page*/
+
+#addaddress .form-group .parsley-errors-list{
+    margin-bottom: 5px!important;
+}
+#addaddress .form-group .parsley-errors-list .parsley-required{
+    list-style: none;
+    color: red;
+}
+.parsley-type{
+    list-style: none;
+    color: red;
+}
+ul {
+    margin-bottom: 0px!important;
+}
+
+#addaddress .adaddr_btn{
+    background-color: #87577f;
+    color: #fff;
+}
+
+.req_btn{
+    width: 60%;
+    font-size: 13px;
+    background-color: #87577f;
+    color: #fff;
+}
+
+
+
+/*Driver Response page*/
+
+#driver_response .call{
+    background: green;
+    padding: 5px;
+    border-radius: 50px;
+    color: #fff;
+}
+#driver_response .dvrpg_btn{
+    background-color: #87577f;
+    color: #fff;
+}
+
+/*Current Order*/
+
+#current_order .call{
+    background: green;
+    padding: 5px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+/*Order History*/
+.vwodr_btn{
+    background-color: #87577f;
+    color: #fff;
+}
